@@ -3,7 +3,9 @@ Xbox
 
 PHP to retrieve Xbox Live informations for gamer
 
-
+Howto
+===
+```php
 include(__DIR__ . '/Live/Gamecard.php');
 
 /**
@@ -23,3 +25,4 @@ echo $xboxLive->getGamerScore();
 echo "<br />";
 var_dump($xboxLive->getPlayedGames(5));
 echo "<br />";
+```
