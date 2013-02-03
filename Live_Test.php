@@ -7,7 +7,7 @@ ini_set('max_execution_time', 0);
 ini_set('display_errors', 1);
 error_reporting(-1);
 
-include(__DIR__ . '/Xbox/Live/Gamecard.php');
+include(__DIR__ . '/Live/Gamecard.php');
 
 /**
  * @var $xboxLive Xbox_Live
