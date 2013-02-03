@@ -7,7 +7,7 @@ PHP to retrieve Xbox Live informations for gamer
 include(__DIR__ . '/Live/Gamecard.php');
 
 /**
- * @var $xboxLive Xbox_Live
+ * @var $xboxLive Xbox_Live_Gamercard
  */
 $xboxLive = new Xbox_Live_Gamercard;
 
